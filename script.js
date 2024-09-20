@@ -1,6 +1,5 @@
 $(document).ready(function() {
-    // Replace 'data.json' with the path to your JSON file
-    $.getJSON('data.json', function(data) {
+    $.getJSON('Customer Statement.json', function(data) {
         $('#example').DataTable({
             data: data,
             columns: [
