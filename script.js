@@ -9,7 +9,7 @@ $(document).ready(function() {
                 { data: 'TRANSACTIONCODE' },
                 { data: 'NARRATION' },
                 { data: 'DEBIT' },
-                { data: 'CREDIT' }
+                { data: 'CREDIT' },
                 { data: 'BALANCE' }
             ]
         });
