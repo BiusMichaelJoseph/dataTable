@@ -10,6 +10,19 @@ $(document).ready(function() {
                 { data: 'DEBIT' },
                 { data: 'CREDIT' },
                 { data: 'BALANCE' }
+            ],
+            dom: 'Bfrtip',  // Show the buttons
+            buttons: [
+                {
+                    extend: 'excelHtml5',
+                    title: 'Data Export',
+                    text: 'Export as Excel'
+                },
+                {
+                    extend: 'pdfHtml5',
+                    title: 'Data Export',
+                    text: 'Export as PDF'
+                }
             ]
         });
     });
