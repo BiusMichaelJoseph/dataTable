@@ -3,73 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Floating Navigation with Dynamic Menu</title>
-    
-    <!-- Include CSS for layout and styles -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-        /* Sidebar styling */
-        .sidebar {
-            width: 250px;
-            background-color: #333;
-            position: fixed;
-            height: 100%;
-            padding-top: 20px;
-            color: white;
-        }
-        .sidebar h3 {
-            color: #fff;
-            text-align: center;
-            margin-bottom: 15px;
-        }
-        .sidebar ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .sidebar li {
-            padding: 10px 15px;
-            color: white;
-            cursor: pointer;
-            border-bottom: 1px solid #575757;
-        }
-        .sidebar li:hover {
-            background-color: #575757;
-        }
-        /* Main content area */
-        .main-content {
-            margin-left: 260px; /* Same width as the sidebar + spacing */
-            padding: 20px;
-            width: 100%;
-        }
-        /* Table container */
-        .table-container {
-            margin-top: 20px;
-        }
-    </style>
-    
-    <!-- Include jQuery -->
+    <title>DataTable Example</title>
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 </head>
 <body>
-    <!-- Sidebar for dynamic navigation menu -->
-    <div class="sidebar">
-        <h3>Navigation</h3>
-        <ul id="dynamicMenu"></ul>changes 
+    <div class="container">
+        <h1>DataTable Example</h1>
+        <table id="example" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>DATE</th>
+                    <th>CUSTOMER CODE</th>
+                    <th>TRANSACTION CODE</th>
+                    <th>NARRATION</th>
+                    <th>DEBIT</th>
+                    <th>CREDIT</th>
+                    <th>BALANCE</th>
+                </tr>
+            </thead>
+        </table>
     </div>
 
-    <!-- Main content area -->
-    <div class="main-content">
-        <h1>Dynamic Navigation Menu Example</h1>
-        <p>Click on the menu items on the left to explore different options!</p>
-        <div id="contentDisplay"></div>
-    </div>
-
-    <!-- JavaScript to dynamically load menu and handle clicks -->
-    <script src="menuScript.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
