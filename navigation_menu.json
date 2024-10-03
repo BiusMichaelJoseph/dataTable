@@ -1,0 +1,1079 @@
+{
+    "validData": true,
+    "message": "Success",
+    "rootDetails": [
+        {
+            "root": "Sales",
+            "linkDetails": [
+                {
+                    "child": "navItemSale",
+                    "name": "Sale"
+                },
+                {
+                    "child": "navItemInvoice",
+                    "name": "Invoice"
+                },
+                {
+                    "child": "navItemQuotation",
+                    "name": "Quotation"
+                },
+                {
+                    "child": "navItemSalesReport",
+                    "name": "Sales Report"
+                },
+                {
+                    "child": "navItemCurrentStock",
+                    "name": "Current Stock"
+                },
+                {
+                    "child": "navItemRestock",
+                    "name": "Restock (GRN)"
+                },
+                {
+                    "child": "navItemReprintDocument",
+                    "name": "Reprint Document"
+                },
+                {
+                    "child": "navItemRetrieveCashSale",
+                    "name": "Retrieve Cash Sale"
+                },
+                {
+                    "child": "navItemQuotationToInvoice",
+                    "name": "Quotation To Invoice"
+                },
+                {
+                    "child": "navItemCreditNoteInvoice",
+                    "name": "Credit Note On Invoice"
+                },
+                {
+                    "child": "navItemQuotationToCashSale",
+                    "name": "Quotation To Cash Sale"
+                },
+                {
+                    "child": "navItemCreditNoteOnCashSale",
+                    "name": "Credit Note On Cash Sale"
+                }
+            ]
+        },
+        {
+            "root": "Etims",
+            "linkDetails": [
+                {
+                    "child": "",
+                    "name": "Settings"
+                },
+                {
+                    "child": "",
+                    "name": "Basic Data"
+                },
+                {
+                    "child": "",
+                    "name": "Item Management"
+                },
+                {
+                    "child": "",
+                    "name": "Branch Information"
+                },
+                {
+                    "child": "",
+                    "name": "Sales Management"
+                },
+                {
+                    "child": "",
+                    "name": "Stock Management"
+                },
+                {
+                    "child": "",
+                    "name": "Imports Management"
+                },
+                {
+                    "child": "",
+                    "name": "Purchase Management"
+                }
+            ]
+        },
+        {
+            "root": "Orders",
+            "linkDetails": [
+                {
+                    "child": "navItemJobCard",
+                    "name": "Job Card"
+                },
+                {
+                    "child": "navItemQuotation",
+                    "name": "Quotation"
+                },
+                {
+                    "child": "navItemSaleOrder",
+                    "name": "Sale Order"
+                },
+                {
+                    "child": "navItemRequisition",
+                    "name": "Requisition"
+                },
+                {
+                    "child": "navItemBackOrder",
+                    "name": "Back Order"
+                },
+                {
+                    "child": "navItemPurchaseOrder",
+                    "name": "Purchase Order"
+                },
+                {
+                    "child": "navItemProformaInvoice",
+                    "name": "Proforma Invoice"
+                },
+                {
+                    "child": "navItemJobCardDispatch",
+                    "name": "Job Card Dispatch"
+                },
+                {
+                    "child": "navItemJobCardToInvoice",
+                    "name": "Job Card To Invoice"
+                },
+                {
+                    "child": "navItemProformaToInvoice",
+                    "name": "Proforma To Invoice"
+                },
+                {
+                    "child": "navItemBackOrderDispatch",
+                    "name": "Back Order Dispatch"
+                },
+                {
+                    "child": "navItemCurrentStockStores",
+                    "name": "Current Stock Stores"
+                },
+                {
+                    "child": "navItemSaleOrderToInvoice",
+                    "name": "Sale Order To Invoice"
+                },
+                {
+                    "child": "navItemBackOrderToInvoice",
+                    "name": "Back Order To Invoice"
+                },
+                {
+                    "child": "navItemQuotationToJobCard",
+                    "name": "Quotation To Job Card"
+                },
+                {
+                    "child": "navItemJobCardToCashSale",
+                    "name": "Job Card To Cash Sale"
+                },
+                {
+                    "child": "navItemSaleOrderToCashSale",
+                    "name": "Sale Order To Cash Sale"
+                },
+                {
+                    "child": "navItemBackOrderToCashSale",
+                    "name": "Back Order To Cash Sale"
+                }
+            ]
+        },
+        {
+            "root": "Session",
+            "linkDetails": [
+                {
+                    "child": "navItemVouchers",
+                    "name": "Vouchers"
+                },
+                {
+                    "child": "navItemBankAccounts",
+                    "name": "Bank Accounts"
+                },
+                {
+                    "child": "navItemReceiptsByTill",
+                    "name": "Receipts By Till"
+                },
+                {
+                    "child": "navItemPickUpReprint",
+                    "name": "Pick Up Reprint"
+                },
+                {
+                    "child": "navItemReprintSession",
+                    "name": "Reprint Session"
+                },
+                {
+                    "child": "navItemDepositsReport",
+                    "name": "Deposits Report"
+                },
+                {
+                    "child": "navItemSageExportCSV",
+                    "name": "Sage Export CSV"
+                },
+                {
+                    "child": "navItemNonCashReceipts",
+                    "name": "Non Cash Receipts"
+                },
+                {
+                    "child": "navItemReceiptsByCashier",
+                    "name": "Receipts By Cashier"
+                },
+                {
+                    "child": "navItemMpesaTransactions",
+                    "name": "Mpesa Transactions"
+                },
+                {
+                    "child": "navItemExpenditureSchedule",
+                    "name": "Expenditure Schedule"
+                },
+                {
+                    "child": "navItemSessionsConsolidated",
+                    "name": "Sessions Consolidated"
+                },
+                {
+                    "child": "navItemTillShortExcess",
+                    "name": "Short And Excess By Till"
+                },
+                {
+                    "child": "navItemCashierShortExcess",
+                    "name": "Short And Excess By Cashier"
+                },
+                {
+                    "child": "navItemPettyCashAccountStatement",
+                    "name": "Petty Cash Account Statement"
+                }
+            ]
+        },
+        {
+            "root": "Accounts",
+            "linkDetails": [
+                {
+                    "child": "navItemAssets",
+                    "name": "Assets"
+                },
+                {
+                    "child": "navItemLedgers",
+                    "name": "Ledgers"
+                },
+                {
+                    "child": "navItemLiabilities",
+                    "name": "Liabilities"
+                },
+                {
+                    "child": "navItemFundAccount",
+                    "name": "Fund Account"
+                },
+                {
+                    "child": "navItemBankAccounts",
+                    "name": "Bank Accounts"
+                },
+                {
+                    "child": "navItemProfitAndLoss",
+                    "name": "Profit And Loss"
+                },
+                {
+                    "child": "navItemFundPettyCash",
+                    "name": "Fund Petty Cash"
+                },
+                {
+                    "child": "navItemExpensesMainAccount",
+                    "name": "Expenses Main Account"
+                },
+                {
+                    "child": "navItemProfitAndLossComparative",
+                    "name": "Profit And Loss Comparative"
+                },
+                {
+                    "child": "navItemProfitAndLossConsolidated",
+                    "name": "Profit And Loss Consolidated"
+                }
+            ]
+        },
+        {
+            "root": "Products",
+            "linkDetails": [
+                {
+                    "child": "navItemWeight",
+                    "name": "Weight"
+                },
+                {
+                    "child": "navItemAddNewProduct",
+                    "name": "Add New"
+                },
+                {
+                    "child": "navItemPriceList",
+                    "name": "Price List"
+                },
+                {
+                    "child": "navItemStockList",
+                    "name": "Stock List"
+                },
+                {
+                    "child": "navItemTaxCodes",
+                    "name": "Tax Codes"
+                },
+                {
+                    "child": "navItemScanCodes",
+                    "name": "Scan Codes"
+                },
+                {
+                    "child": "navItemBuyingPrice",
+                    "name": "Buying Price"
+                },
+                {
+                    "child": "navItemSellingPrice",
+                    "name": "Selling Price"
+                },
+                {
+                    "child": "navItemStockReport",
+                    "name": "Stock Report"
+                },
+                {
+                    "child": "navItemCurrentStock",
+                    "name": "Current Stock"
+                },
+                {
+                    "child": "navItemMonitorStock",
+                    "name": "Monitor Stock"
+                },
+                {
+                    "child": "navItemPartsPerUnit",
+                    "name": "Parts Per Unit"
+                },
+                {
+                    "child": "navItemOpeningStock",
+                    "name": "Opening Stock"
+                },
+                {
+                    "child": "navItemAddNewProduct",
+                    "name": "Product Details"
+                },
+                {
+                    "child": "navItemSerialNumbers",
+                    "name": "Serial Numbers"
+                },
+                {
+                    "child": "navItemReOrderLevels",
+                    "name": "Re Order Levels"
+                },
+                {
+                    "child": "navItemUnitOfMeasure",
+                    "name": "Unit Of Measure"
+                },
+                {
+                    "child": "navItemSageExportCSV",
+                    "name": "Sage Export CSV"
+                },
+                {
+                    "child": "navItemProductActivation",
+                    "name": "Product Activation"
+                },
+                {
+                    "child": "navItemProductSuppliers",
+                    "name": "Product Suppliers"
+                },
+                {
+                    "child": "navItemImportFromExcel",
+                    "name": "Import From Excel"
+                },
+                {
+                    "child": "navItemStockSheetStores",
+                    "name": "Stock Sheet Stores"
+                },
+                {
+                    "child": "navItemProductMovement",
+                    "name": "Product Movement"
+                },
+                {
+                    "child": "navItemProductCategories",
+                    "name": "Product Categories"
+                },
+                {
+                    "child": "navItemEditProduct",
+                    "name": "Edit Product Details"
+                },
+                {
+                    "child": "navItemCurrentStockStores",
+                    "name": "Current Stock Stores"
+                },
+                {
+                    "child": "navItemProductDepartments",
+                    "name": "Product Departments"
+                },
+                {
+                    "child": "navItemSendItemComposition",
+                    "name": "Send Item Composition"
+                },
+                {
+                    "child": "navItemSellingPricesWholesale",
+                    "name": "Selling Prices Wholesale"
+                }
+            ]
+        },
+        {
+            "root": "Bulk Sms",
+            "linkDetails": [
+                {
+                    "child": "navItemSmsSend",
+                    "name": "Sms Send"
+                },
+                {
+                    "child": "navItemSmsRecipients",
+                    "name": "Sms Recipients"
+                },
+                {
+                    "child": "navItemSmsNotifications",
+                    "name": "Sms Notifications"
+                }
+            ]
+        },
+        {
+            "root": "Suppliers",
+            "linkDetails": [
+                {
+                    "child": "navItemPaySupplier",
+                    "name": "Pay Supplier"
+                },
+                {
+                    "child": "navItemCreditorsList",
+                    "name": "Creditors List"
+                },
+                {
+                    "child": "navItemNewSupplier",
+                    "name": "New Supplier"
+                },
+                {
+                    "child": "navItemSuppliersList",
+                    "name": "Suppliers List"
+                },
+                {
+                    "child": "navItemRestock",
+                    "name": "Restock (GRN)"
+                },
+                {
+                    "child": "navItemPurchaseOrder",
+                    "name": "Purchase Order"
+                },
+                {
+                    "child": "navItemDebitNoteDirectSupplier",
+                    "name": "Debit Note Direct"
+                },
+                {
+                    "child": "navItemCreditNoteDirectSupplier",
+                    "name": "Credit Note Direct"
+                },
+                {
+                    "child": "navItemSuppliersInvoices",
+                    "name": "Suppliers Invoices"
+                },
+                {
+                    "child": "navItemOpeningBalancesSuppliers",
+                    "name": "Opening Balances"
+                },
+                {
+                    "child": "navItemSupplierStatementOfAccount",
+                    "name": "Supplier Statement"
+                },
+                {
+                    "child": "navItemSuppliersPayments",
+                    "name": "Suppliers Payments"
+                },
+                {
+                    "child": "navItemEditSupplierDetails",
+                    "name": "Edit Supplier Details"
+                },
+                {
+                    "child": "navItemDebitNoteShortSupply",
+                    "name": "Debit Note Short Supply"
+                },
+                {
+                    "child": "navItemSuppliersInvoicesStatus",
+                    "name": "Suppliers Invoices Status"
+                },
+                {
+                    "child": "navItemStatementOfGoodsReceved",
+                    "name": "Goods Receved Statement"
+                },
+                {
+                    "child": "navItemPurchaseOrderFromREQ",
+                    "name": "Purchase Order (PO) From REQ"
+                },
+                {
+                    "child": "navItemDebitNoteGoodsReturnedOut",
+                    "name": "Debit Note Goods Returned Out"
+                },
+                {
+                    "child": "navItemRestockFromPurchaseOrder",
+                    "name": "Restock (GRN) From Purchase Order"
+                }
+            ]
+        },
+        {
+            "root": "Inventory",
+            "linkDetails": [
+                {
+                    "child": "navItemStockList",
+                    "name": "Stock List"
+                },
+                {
+                    "child": "navItemStockTake",
+                    "name": "Stock Take"
+                },
+                {
+                    "child": "navItemRequisition",
+                    "name": "Requisition"
+                },
+                {
+                    "child": "navItemStockReport",
+                    "name": "Stock Report"
+                },
+                {
+                    "child": "navItemCostOfSales",
+                    "name": "Cost Of Sales"
+                },
+                {
+                    "child": "navItemCurrentStock",
+                    "name": "Current Stock"
+                },
+                {
+                    "child": "navItemDeliveryNote",
+                    "name": "Delivery Note"
+                },
+                {
+                    "child": "navItemOpeningStock",
+                    "name": "Opening Stock"
+                },
+                {
+                    "child": "navItemExpiredGoods",
+                    "name": "Expired Goods"
+                },
+                {
+                    "child": "navItemExchangeItem",
+                    "name": "Exchange Item"
+                },
+                {
+                    "child": "navItemRestock",
+                    "name": "Restock (GRN)"
+                },
+                {
+                    "child": "navItemGoodsTransfer",
+                    "name": "Goods Transfer"
+                },
+                {
+                    "child": "navItemPurchaseOrder",
+                    "name": "Purchase Order"
+                },
+                {
+                    "child": "navItemMoveToExpired",
+                    "name": "Move To Expired"
+                },
+                {
+                    "child": "navItemDamagedGoods",
+                    "name": "Damaged Goods"
+                },
+                {
+                    "child": "navItemStoresAndShops",
+                    "name": "Stores And Shops"
+                },
+                {
+                    "child": "navItemJobCardDispatch",
+                    "name": "Job Card Dispatch"
+                },
+                {
+                    "child": "navItemStoresTransfersIn",
+                    "name": "Stores Transfers In"
+                },
+                {
+                    "child": "navItemStockSheetStores",
+                    "name": "Stock Sheet Stores"
+                },
+                {
+                    "child": "navItemProductMovement",
+                    "name": "Product Movement"
+                },
+                {
+                    "child": "navItemMoveToDamaged",
+                    "name": "Move To Damaged"
+                },
+                {
+                    "child": "navItemInterStoresTransfer",
+                    "name": "Inter Stores Transfer"
+                },
+                {
+                    "child": "navItemCurrentStockStores",
+                    "name": "Current Stock Stores"
+                },
+                {
+                    "child": "navItemStoresTransfersOut",
+                    "name": "Stores Transfers Out"
+                },
+                {
+                    "child": "navItemIncomingProcessing",
+                    "name": "Incoming Processing"
+                },
+                {
+                    "child": "navItemOutgoingProcessing",
+                    "name": "Outgoing Processing"
+                },
+                {
+                    "child": "navItemIncomingAdjustment",
+                    "name": "Incoming Adjustment"
+                },
+                {
+                    "child": "navItemOutgoingAdjustment",
+                    "name": "Outgoing Adjustment"
+                },
+                {
+                    "child": "navItemStockMovementSheet",
+                    "name": "Stock Movement Sheet"
+                },
+                {
+                    "child": "navItemStatementOfGoodsTransfer",
+                    "name": "Statement Of Goods Transfer"
+                },
+                {
+                    "child": "navItemStatementOfGoodsReceved",
+                    "name": "Statement Of Goods Receved"
+                },
+                {
+                    "child": "navItemRestockFromPurchaseOrder",
+                    "name": "Restock (GRN) From Purchase Order"
+                }
+            ]
+        },
+        {
+            "root": "Approvals",
+            "linkDetails": [
+                {
+                    "child": "navItemApproveQuotation",
+                    "name": "Approve Quotation"
+                },
+                {
+                    "child": "navItemApproveSaleOrder",
+                    "name": "Approve Sale Order"
+                },
+                {
+                    "child": "navItemApproveBackOrder",
+                    "name": "Approve Back Order"
+                },
+                {
+                    "child": "navItemApproveRequisition",
+                    "name": "Approve Requisition"
+                },
+                {
+                    "child": "navItemApproveDispatchNote",
+                    "name": "Approve Dispatch Note"
+                },
+                {
+                    "child": "navItemApprovePurchaseOrder",
+                    "name": "Approve Purchase Order"
+                }
+            ]
+        },
+        {
+            "root": "Customers",
+            "linkDetails": [
+                {
+                    "child": "navItemDebtorsList",
+                    "name": "Debtors List"
+                },
+                {
+                    "child": "navItemNewCustomer",
+                    "name": "New Customer"
+                },
+                {
+                    "child": "navItemCustomersList",
+                    "name": "Customers List"
+                },
+                {
+                    "child": "navItemProformaInvoice",
+                    "name": "Proforma Invoice"
+                },
+                {
+                    "child": "navItemDebitNoteDirect",
+                    "name": "Debit Note Direct"
+                },
+                {
+                    "child": "navItemReceivePayment",
+                    "name": "Receive Payment"
+                },
+                {
+                    "child": "navItemCreditNoteDirect",
+                    "name": "Credit Note Direct"
+                },
+                {
+                    "child": "navItemLoyaltyStatement",
+                    "name": "Loyalty Statement"
+                },
+                {
+                    "child": "navItemOpeningBalances",
+                    "name": "Opening Balances"
+                },
+                {
+                    "child": "navItemCustomersInvoices",
+                    "name": "Customers Invoices"
+                },
+                {
+                    "child": "navItemCustomersReceipts",
+                    "name": "Customers Receipts"
+                },
+                {
+                    "child": "navItemProformaToInvoice",
+                    "name": "Proforma To Invoice"
+                },
+                {
+                    "child": "navItemCustomerStatementOfAccount",
+                    "name": "Customer Statement"
+                },
+                {
+                    "child": "navItemEditCustomerDetails",
+                    "name": "Edit Customer Details"
+                },
+                {
+                    "child": "navItemCustomerOfferPrices",
+                    "name": "Customer Offer Prices"
+                },
+                {
+                    "child": "navItemCreditNoteInvoice",
+                    "name": "Credit Note On Invoice"
+                },
+                {
+                    "child": "navItemCreateLoyaltyNumbers",
+                    "name": "Create Loyalty Numbers"
+                },
+                {
+                    "child": "navItemCustomersInvoicesStatus",
+                    "name": "Customers Invoices Status"
+                },
+                {
+                    "child": "navItemCustomerStatementOfPurchases",
+                    "name": "Purchases History By Invoices"
+                },
+                {
+                    "child": "navItemCustomerStatementOfPurchasesByProducts",
+                    "name": "Purchases History By Products"
+                },
+                {
+                    "child": "navItemCustomerStatementRevenueGroup",
+                    "name": "Customer Statement Revenue Group"
+                }
+            ]
+        },
+        {
+            "root": "Employees",
+            "linkDetails": [
+                {
+                    "child": "navItemSalaryAdvance",
+                    "name": "Salary Advance"
+                },
+                {
+                    "child": "navItemEmployeeDetails",
+                    "name": "Employee Details"
+                },
+                {
+                    "child": "navItemSalaryAdvancesReport",
+                    "name": "Advances By Employee"
+                },
+                {
+                    "child": "navItemSalaryAdvancesByEmployee",
+                    "name": "Salary Advances Report"
+                }
+            ]
+        },
+        {
+            "root": "Edit Transaction",
+            "linkDetails": [
+                {
+                    "child": "navItemEditQuotation",
+                    "name": "Edit Quotation"
+                },
+                {
+                    "child": "navItemEditSaleOrder",
+                    "name": "Edit Sale Order"
+                },
+                {
+                    "child": "navItemEditBackOrder",
+                    "name": "Edit Back Order"
+                },
+                {
+                    "child": "navItemEditRequisition",
+                    "name": "Edit Requisition"
+                },
+                {
+                    "child": "navItemEditDeliveryNote",
+                    "name": "Edit Delivery Note"
+                },
+                {
+                    "child": "navItemEditDispatchNote",
+                    "name": "Edit Dispatch Note"
+                },
+                {
+                    "child": "navItemEditPurchaseOrder",
+                    "name": "Edit Purchase Order"
+                },
+                {
+                    "child": "navItemEditProformaInvoice",
+                    "name": "Edit Proforma Invoice"
+                }
+            ]
+        },
+        {
+            "root": "Cancel Document",
+            "linkDetails": [
+                {
+                    "child": "navItemCancelGRN",
+                    "name": "Cancel GRN"
+                },
+                {
+                    "child": "navItemCancelInvoice",
+                    "name": "Cancel Invoice"
+                },
+                {
+                    "child": "navItemCancelCashSale",
+                    "name": "Cancel Cash Sale"
+                },
+                {
+                    "child": "navItemCancelDeliveryNote",
+                    "name": "Cancel Delivery Note"
+                },
+                {
+                    "child": "navItemCancelGoodsTransfer",
+                    "name": "Cancel Goods Transfer"
+                },
+                {
+                    "child": "navItemCancelSupplierPayment",
+                    "name": "Cancel Supplier Payment"
+                },
+                {
+                    "child": "navItemCancelCustomerReceipt",
+                    "name": "Cancel Customer Receipt"
+                },
+                {
+                    "child": "navItemCancelPendingSaleOrder",
+                    "name": "Cancel Pending Sale Order"
+                },
+                {
+                    "child": "navItemCancelPendingBackOrder",
+                    "name": "Cancel Pending Back Order"
+                },
+                {
+                    "child": "navItemCancelApprovedBackOrder",
+                    "name": "Cancel Approved Back Order"
+                },
+                {
+                    "child": "navItemCancelPendingRequisition",
+                    "name": "Cancel Pending Requisition"
+                },
+                {
+                    "child": "navItemCancelApprovedRequisition",
+                    "name": "Cancel Approved Requisition"
+                },
+                {
+                    "child": "navItemCancelPendingPurchaseOrder",
+                    "name": "Cancel Pending Purchase Order"
+                },
+                {
+                    "child": "navItemCancelApprovedPurchaseOrder",
+                    "name": "Cancel Approved Purchase Order"
+                }
+            ]
+        },
+        {
+            "root": "Reprint Document",
+            "linkDetails": [
+                {
+                    "child": "navItem_Invoices",
+                    "name": "Reprint Invoice"
+                },
+                {
+                    "child": "navItem_JobCards",
+                    "name": "Reprint Job Card"
+                },
+                {
+                    "child": "navItem_Quotations",
+                    "name": "Reprint Quotation"
+                },
+                {
+                    "child": "navItem_SaleOrders",
+                    "name": "Reprint Sale Order"
+                },
+                {
+                    "child": "navItem_CashReceipts",
+                    "name": "Reprint Cash Receipt"
+                },
+                {
+                    "child": "navItemReprintDispatchNotes",
+                    "name": "Reprint Dispatch Note"
+                },
+                {
+                    "child": "navItem_CreditNotesIn",
+                    "name": "Reprint Credit Notes In"
+                },
+                {
+                    "child": "navItem_GoodsExpired",
+                    "name": "Reprint Goods Expired"
+                },
+                {
+                    "child": "navItemReprintCancelledGRNs",
+                    "name": "Reprint Cancelled GRN"
+                },
+                {
+                    "child": "navItem_PurchaseOrders",
+                    "name": "Reprint Purchase Order"
+                },
+                {
+                    "child": "navItem_CreditNotesOut",
+                    "name": "Reprint Credit Notes Out"
+                },
+                {
+                    "child": "navItem_SupplierReceipts",
+                    "name": "Reprint Supplier Receipt"
+                },
+                {
+                    "child": "navItem_ProformaInvoice",
+                    "name": "Reprint Proforma Invoice"
+                },
+                {
+                    "child": "navItem_GoodsDamaged",
+                    "name": "Reprint Goods Damaged"
+                },
+                {
+                    "child": "navItemReprintCancelledInvoices",
+                    "name": "Reprint Cancelled Invoice"
+                },
+                {
+                    "child": "navItem_CustomerReceipts",
+                    "name": "Reprint Customer Receipt"
+                },
+                {
+                    "child": "navItemNonCashReceiptsReprint",
+                    "name": "Reprint Non Cash Receipt"
+                },
+                {
+                    "child": "navItem_CancelledReceipts",
+                    "name": "Reprint Cancelled Receipt"
+                },
+                {
+                    "child": "navItem_GoodsReturnedIn",
+                    "name": "Reprint Goods Returned In"
+                },
+                {
+                    "child": "navItem_GoodsReturnedOut",
+                    "name": "Reprint Goods Returned Out"
+                },
+                {
+                    "child": "navItemGoodsTransferNotes",
+                    "name": "Reprint Goods Transfer Note"
+                },
+                {
+                    "child": "navItem_GoodsReceivedNotes",
+                    "name": "Reprint Goods Received Note"
+                },
+                {
+                    "child": "navItem_InvoicesOnCashSales",
+                    "name": "Reprint Invoices On Cash Sale"
+                },
+                {
+                    "child": "navItem_DeliveryNotesWithFigures",
+                    "name": "Reprint Delivery Notes With Figures"
+                },
+                {
+                    "child": "navItemGoodsTransferNotesStores",
+                    "name": "Reprint Goods Transfer Notes Stores"
+                },
+                {
+                    "child": "navItem_DeliveryNotesWithoutFigures",
+                    "name": "Reprint Delivery Notes Without Figures"
+                },
+                {
+                    "child": "navItemGoodsTransferNotesWithCostPrices",
+                    "name": "Reprint Goods Transfer Notes With Cost Prices"
+                },
+                {
+                    "child": "navItemGoodsTransferNotesStoresWithPrices",
+                    "name": "Reprint Goods Transfer Notes Stores With Prices"
+                }
+            ]
+        },
+        {
+            "root": "Retrieve Transaction",
+            "linkDetails": [
+                {
+                    "child": "navItemRetrieveInvoice",
+                    "name": "Retrieve Invoice"
+                },
+                {
+                    "child": "navItemRetrieveQuotation",
+                    "name": "Retrieve Quotation"
+                },
+                {
+                    "child": "navItemRetrieveCashSale",
+                    "name": "Retrieve Cash Sale"
+                },
+                {
+                    "child": "navItemRetrieveSaleOrder",
+                    "name": "Retrieve Sale Order"
+                },
+                {
+                    "child": "navItemRetrieveGoodsExpired",
+                    "name": "Retrieve Goods Expired"
+                },
+                {
+                    "child": "navItemRetrieveGoodsTransfer",
+                    "name": "Retrieve Goods Transfer"
+                },
+                {
+                    "child": "navItemRetrievePurchaseOrder",
+                    "name": "Retrieve Purchase Order"
+                },
+                {
+                    "child": "navItemRetrieveProformaInvoice",
+                    "name": "Retrieve Proforma Invoice"
+                },
+                {
+                    "child": "navItemRetrieveGoodsDamaged",
+                    "name": "Retrieve Goods Damaged"
+                },
+                {
+                    "child": "navItemRetriveGoodsReturnedIn",
+                    "name": "Retrieve Goods Returned In"
+                },
+                {
+                    "child": "navItemRetrieveGoodsReturnedOut",
+                    "name": "Retrieve Goods Returned Out"
+                },
+                {
+                    "child": "navItemRetrieveGoodsReceivedNotes",
+                    "name": "Retrieve Goods Received Notes"
+                }
+            ]
+        },
+        {
+            "root": "Cheque Management",
+            "linkDetails": [
+                {
+                    "child": "navItemChequeWrite",
+                    "name": "Write"
+                },
+                {
+                    "child": "navItemChequeBanks",
+                    "name": "Banks"
+                },
+                {
+                    "child": "navItemChequeReprint",
+                    "name": "Reprint"
+                },
+                {
+                    "child": "navItemChequeSuppliers",
+                    "name": "Suppliers"
+                },
+                {
+                    "child": "navItemChequesIssuedByDate",
+                    "name": "Cheques Issued By Date"
+                },
+                {
+                    "child": "navItemChequesIssuedByBanks",
+                    "name": "Cheques Issued By Banks"
+                },
+                {
+                    "child": "navItemChequesIssuedToSuppliers",
+                    "name": "Cheques Issued To Suppliers"
+                },
+                {
+                    "child": "navItemAccountLimitsAndReconcilliation",
+                    "name": "Account Limits And Reconcilliation"
+                }
+            ]
+        }
+    ]
+}
