@@ -56,23 +56,20 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>DataTable Example</h1>
-        <table id="example" class="display" style="width:100%">
-            <thead>
-                <tr>
-                    <th>DATE</th>
-                    <th>CUSTOMER CODE</th>
-                    <th>TRANSACTION CODE</th>
-                    <th>NARRATION</th>
-                    <th>DEBIT</th>
-                    <th>CREDIT</th>
-                    <th>BALANCE</th>
-                </tr>
-            </thead>
-        </table>
+    <!-- Sidebar for dynamic navigation menu -->
+    <div class="sidebar">
+        <h3>Navigation</h3>
+        <ul id="dynamicMenu"></ul>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Main content area -->
+    <div class="main-content">
+        <h1>Dynamic Navigation Menu Example</h1>
+        <p>Click on the menu items on the left to explore different options!</p>
+        <div id="contentDisplay"></div>
+    </div>
+
+    <!-- JavaScript to dynamically load menu and handle clicks -->
+    <script src="menuScript.js"></script>
 </body>
 </html>
