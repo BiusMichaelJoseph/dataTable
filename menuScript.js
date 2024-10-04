@@ -19,13 +19,20 @@ $(document).ready(function() {
 
                     // Append the link to the menu container
                     menuContainer.append(linkItem);
-                });
-            });
 
-            // Handle menu item click events
-            $('.menuItem').on('click', function() {
-                const itemName = $(this).text();
-                $('#contentDisplay').html('<h3>' + itemName + ' Selected</h3>');
+                    // If it's a customer statement, bind a specific function to handle the click
+                    if (linkDetail.child === 'navItemCustomerStatement') {
+                        linkItem.on('click', function() {
+                            displayCustomerStatementForm();
+                        });
+                    } else {
+                        // Generic handler for other items (optional)
+                        linkItem.on('click', function() {
+                            const itemName = $(this).text();
+                            $('#contentDisplay').html('<h3>' + itemName + ' Selected</h3>');
+                        });
+                    }
+                });
             });
         }
     }
@@ -38,4 +45,18 @@ $(document).ready(function() {
         console.error('Error loading navigation menu data.');
         $('#contentDisplay').html('<p>Failed to load navigation menu.</p>');
     });
+
+    // Function to display customer statement form
+    function displayCustomerStatementForm() {
+        $.ajax({
+            url: "views/customers/customersStatement.html",
+            success: function (html_content) {
+                $("#contentDisplay").html(""); // Clear previous content
+                $("#contentDisplay").html(html_content); // Load customer statement form
+            },
+            error: function() {
+                $("#contentDisplay").html("<p>Failed to load customer statement form.</p>");
+            }
+        });
+    }
 });
