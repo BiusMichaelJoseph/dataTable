@@ -1,16 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dynamic Menu</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Navigation with Dynamic Menu</title>
+    
+    <!-- Include CSS for layout and styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        /* Sidebar styling */
+        .sidebar {
+            width: 250px;
+            background-color: #333;
+            position: fixed;
+            height: 100%;
+            padding-top: 20px;
+            color: white;
+        }
+        .sidebar h3 {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar li {
+            padding: 10px 15px;
+            color: white;
+            cursor: pointer;
+            border-bottom: 1px solid #575757;
+        }
+        .sidebar li:hover {
+            background-color: #575757;
+        }
+        /* Main content area */
+        .main-content {
+            margin-left: 260px; /* Same width as the sidebar + spacing */
+            padding: 20px;
+            width: 100%;
+        }
+        /* Table container */
+        .table-container {
+            margin-top: 20px;
+        }
+    </style>
+    
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <!-- Sidebar for dynamic navigation menu -->
     <div class="sidebar">
         <h3>Navigation</h3>
-        <ul id="dynamicMenu"></ul>
+        <ul id="dynamicMenu"></ul>changes 
     </div>
 
     <!-- Main content area -->
@@ -20,7 +69,7 @@
         <div id="contentDisplay"></div>
     </div>
 
-
-  <script src="menuScript.js"></script>
+    <!-- JavaScript to dynamically load menu and handle clicks -->
+    <script src="menuScript.js"></script>
 </body>
 </html>
