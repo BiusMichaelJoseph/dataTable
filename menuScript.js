@@ -1,62 +1,62 @@
-$(document).ready(function() {
-    // Function to dynamically generate the navigation menu
-    function loadMenu(navData) {
-        if (navData.validData) {
-            const menuContainer = $('#dynamicMenu');
+document.addEventListener('DOMContentLoaded', () => {
+    const sidebar = document.getElementById('sidebar');
+    const contentDisplay = document.getElementById('contentDisplay');
 
-            // Loop through root details (e.g., "Sales")
-            navData.rootDetails.forEach(rootDetail => {
-                // Create a header for each root
-                const rootHeader = $('<li>').text(rootDetail.root);
-                menuContainer.append(rootHeader);
+    // Fetch the JSON data for the navigation menu
+    fetch('navigation_menu.json')
+        .then(response => response.json())
+        .then(data => {
+            // Create the menu structure
+            data.rootDetails.forEach(root => {
+                const rootElement = document.createElement('div');
+                rootElement.classList.add('root');
+                rootElement.textContent = root.root;
 
-                // Loop through link details (e.g., Sale, Invoice, etc.)
-                rootDetail.linkDetails.forEach(linkDetail => {
-                    const linkItem = $('<li>')
-                        .attr('id', linkDetail.child)
-                        .text(linkDetail.name)
-                        .addClass('menuItem'); // Add a class for styling
+                const linksContainer = document.createElement('ul');
+                root.linkDetails.forEach(link => {
+                    const linkElement = document.createElement('li');
+                    linkElement.classList.add('link');
+                    linkElement.textContent = link.name;
 
-                    // Append the link to the menu container
-                    menuContainer.append(linkItem);
+                    // Add event listener for link clicks
+                    linkElement.addEventListener('click', () => {
+                        handleLinkClick(link.child);
+                    });
 
-                    // If it's a customer statement, bind a specific function to handle the click
-                    if (linkDetail.child === 'navItemCustomerStatement') {
-                        linkItem.on('click', function() {
-                            displayCustomerStatementForm();
-                        });
-                    } else {
-                        // Generic handler for other items (optional)
-                        linkItem.on('click', function() {
-                            const itemName = $(this).text();
-                            $('#contentDisplay').html('<h3>' + itemName + ' Selected</h3>');
-                        });
-                    }
+                    linksContainer.appendChild(linkElement);
                 });
+
+                rootElement.appendChild(linksContainer);
+                sidebar.appendChild(rootElement);
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching JSON data:', error);
+        });
+
+    // Show child links on hover
+    sidebar.addEventListener('mouseover', event => {
+        const target = event.target;
+        if (target.classList.contains('root')) {
+            target.querySelectorAll('.link').forEach(link => {
+                link.style.display = 'block';
             });
         }
-    }
-
-    // Fetch the JSON data from the external file
-    $.getJSON('navigation_menu.json', function(navData) {
-        // Call the function to load the menu with fetched data
-        loadMenu(navData);
-    }).fail(function() {
-        console.error('Error loading navigation menu data.');
-        $('#contentDisplay').html('<p>Failed to load navigation menu.</p>');
     });
 
-    // Function to display customer statement form
-    function displayCustomerStatementForm() {
-        $.ajax({
-            url: "views/customers/customersStatement.html",
-            success: function (html_content) {
-                $("#contentDisplay").html(""); // Clear previous content
-                $("#contentDisplay").html(html_content); // Load customer statement form
-            },
-            error: function() {
-                $("#contentDisplay").html("<p>Failed to load customer statement form.</p>");
-            }
-        });
+    sidebar.addEventListener('mouseleave',  event => {
+        const target = event.target;
+        if (!target.classList.contains('root')) {
+            target.querySelectorAll('.link').forEach(link => {
+                link.style.display = 'none';
+            });
+        }else{
+            alert('else')
+        }
+    });
+
+    // Function to handle link clicks and update the main content area
+    function handleLinkClick(linkChild) {
+        contentDisplay.innerHTML = `<h3>${linkChild} Selected</h3>`;
     }
 });

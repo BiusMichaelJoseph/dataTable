@@ -1,83 +1,25 @@
-/* Basic menu styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
+#sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 10px;
 }
-/* Sidebar styling */
-.sidebar {
-    width: 250px;
-    background-color: #333;
-    position: fixed;
-    height: 100%;
-    padding-top: 20px;
-    color: white;
+
+.root {
+  font-weight: bold;
+  margin-bottom: 5px;
 }
-.sidebar h3 {
-    color: #fff;
-    text-align: center;
-    margin-bottom: 15px;
+
+.link {
+  padding: 5px;
+  cursor: pointer;
+  /* Initially hide the child elements */
+  display: none;
 }
-.sidebar ul {
-    list-style-type: none;
-    padding: 0;
+
+.link:hover {
+  background-color: #ddd;
 }
-.sidebar li {
-    padding: 10px 15px;
-    color: white;
-    cursor: pointer;
-    border-bottom: 1px solid #575757;
+
+.root:hover .link {
+  display: block;
 }
-.sidebar li:hover {
-    background-color: #575757;
-}
-/* Main content area */
-.main-content {
-    margin-left: 260px; /* Same width as the sidebar + spacing */
-    padding: 20px;
-    width: 100%;
-}
-/* Table container */
-.table-container {
-    margin-top: 20px;
-}
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    position: relative;
-    padding: 10px;
-    background-color: #eee;
-    cursor: pointer;
-  }
-  
-  li ul {
-    display: none; /* Hide child menus */
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-  
-  li:hover > ul {
-    display: block; /* Show child menus on hover */
-  }
-  
-  ul ul {
-    position: absolute;
-    left: 100%;
-    top: 0;
-  }
-  
-  li a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  li:hover {
-    background-color: #ddd;
-  }
-  
