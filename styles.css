@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    position: fixed;
+    height: 100%;
+    padding-top: 5px;
+    color: white;
+    /* overflow-x: scroll; */
+}
+#sidebar{
+    height: 90%;
+}
+
+.root {
+    padding: 5px;
+    background-color: #444;
+    margin-bottom: 2.5px;
+    cursor: pointer;
+    position: relative; /* Required for child menu positioning */
+}
+.link-container {
+    background-color: #575757;
+    width: 350px;
+    position: fixed;
+    padding: 2.5px;
+    top: 0;
+    left: 100%; /* Menu will float to the right of its parent */
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    display: none; /* Hidden initially */
+    overflow-y: auto; /* Enable vertical scroll if content exceeds the container height */
+    max-height: 400px; /* Optional: set max height to control container size */
+}
+
+.link {
+    color: white;
+    cursor: pointer;
+    margin-bottom: 2px;
+    padding: 5px; /* Add padding for better spacing */
+}
+
+.link:hover {
+    background-color: #666;
+}
+
+
+.main-content {
+    margin-left: 260px;
+    padding: 20px;
+    width: calc(100% - 260px);
+
+}
