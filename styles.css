@@ -7,13 +7,13 @@ body {
 }
 
 .sidebar {
-    width: 250px;
+    width: 200px;
     background-color: #333;
     position: fixed;
     height: 100%;
     padding-top: 5px;
     color: white;
-    /* overflow-x: scroll; */
+    /* overflow-y: scroll; */
 }
 #sidebar{
     height: 90%;
@@ -28,11 +28,11 @@ body {
 }
 .link-container {
     background-color: #575757;
-    width: 350px;
+    width: 200px;
     position: fixed;
     padding: 2.5px;
     top: 0;
-    left: 100%; /* Menu will float to the right of its parent */
+    left: 200px; /* Menu will float to the right of its parent */
     z-index: 1000; /* Ensure it stays on top of other elements */
     display: none; /* Hidden initially */
     overflow-y: auto; /* Enable vertical scroll if content exceeds the container height */

@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    position: fixed;
+    height: 100%;
+    padding-top: 5px;
+    color: rgb(12, 12, 12);
+}
+
+#sidebar {
+    height: 90%;
+}
+
+.root {
+    padding: 5px;
+    background-color: #516de6;
+    margin-bottom: 2.5px;
+    cursor: pointer;
+    position: relative; /* Required for child menu positioning */
+}
+
+.root:hover {
+    background-color: #ffa500; /* Close to orange on hover */
+}
+
+.link-container {
+    background-color: #6667c0;
+    width: 200px;
+    position: absolute;
+    z-index: 1000;
+    display: none;
+}
+
+.link {
+    color: rgb(7, 7, 7);
+    cursor: pointer;
+    padding: 5px;
+}
+
+.link:hover {
+    background-color: #070bf3f6;
+}
+
+.main-content {
+    margin-left: 260px;
+    padding: 20px;
+    width: calc(100% - 260px);
+}
