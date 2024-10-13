@@ -8,26 +8,31 @@ body {
 
 .sidebar {
     width: 200px;
-    background-color: #333;
+    background-color: #0874f0;
     position: fixed;
     height: 100%;
     padding-top: 5px;
-    color: white;
+    color: rgb(10, 10, 10);
     /* overflow-y: scroll; */
 }
 #sidebar{
-    height: 90%;
+    height: 100%;
+    padding-top: 20px;
 }
 
 .root {
     padding: 5px;
-    background-color: #444;
+    background-color: #098fdd;
     margin-bottom: 2.5px;
     cursor: pointer;
     position: relative; /* Required for child menu positioning */
 }
+.root:hover {
+    background-color: #b47706;
+}
+
 .link-container {
-    background-color: #575757;
+    background-color: #098fdd;
     width: 200px;
     position: fixed;
     padding: 2.5px;
@@ -40,14 +45,14 @@ body {
 }
 
 .link {
-    color: white;
+    color: rgb(10, 10, 10);
     cursor: pointer;
     margin-bottom: 2px;
     padding: 5px; /* Add padding for better spacing */
 }
 
 .link:hover {
-    background-color: #666;
+    background-color: #f3a246;
 }
 
 

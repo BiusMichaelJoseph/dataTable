@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 let inSubMenu = false;
 
                 const mouseMove = (e) => {
-                    console.log(e.pageX, e.pageY);
+                    console.log( e.pageY);
                     let digit = e.pageY - 50;
 
                     if (!inSubMenu) {
